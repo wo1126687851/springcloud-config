@@ -1,0 +1,11 @@
+druid.master.Url = jdbc:mysql://127.0.0.1:3306/springboot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+druid.master.username =root
+druid.master.password = root
+druid.master.maximum-pool-size = 10
+
+
+
+druid.slave_1.Url = jdbc:mysql://127.0.0.1:3306/springboot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+druid.slave_1.username =root
+druid.slave_1.password = root
+druid.slave_1.maximum-pool-size = 10
